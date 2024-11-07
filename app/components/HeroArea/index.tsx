@@ -1,6 +1,6 @@
 "use client";
 import Contact from '@/components/contact';
-import Image from "next/image";
+
 const HeroArea = () => {
 
   return (
