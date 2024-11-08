@@ -13,8 +13,8 @@ return (
             <div className="lg:py-0 w-3/8">
               <Link href="/" className="block">
                 <Image
-                  width={400}
-                  height={115}
+                  width={300}
+                  height={126}
                   src={"/images/logo/TSSHoldingLogo.png"}
                   alt="Logo"
                   priority
@@ -23,7 +23,7 @@ return (
               </Link>               
             </div>
             <div className="w-5/8">
-            <h1 className="text-black sm:text-[50px] md:text-[50px] lg:text-[42px] xl:text-[50px] font-bold italic text-center">ALL ELECTRIC <span className="dark:text-green-600">LAWN</span> SERVICE</h1></div></div></div>
+            <h1 className="text-black sm:text-[30px] md:text-[40px] lg:text-[40px] xl:text-[50px] font-bold italic text-center">ALL ELECTRIC <span className="dark:text-green-600">LAWN</span> SERVICE</h1></div></div></div>
             </header>
         );
 };
