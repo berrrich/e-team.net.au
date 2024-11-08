@@ -11,7 +11,7 @@ return (
         <div className="container relative max-w-[1330px]">
             <div className="flex justify-between">
             <div className="block pl-4 lg:py-0 w-3/8">
-              <Link href="/" className="block ">
+              <Link href="/" className="block">
                 <Image
                   width={229}
                   height={90}
@@ -19,7 +19,6 @@ return (
                   alt="Logo"
                   priority
                   className="hidden dark:block"
-                  style={{ width: "auto", height: "auto" }}
                 />
               </Link>               
             </div>

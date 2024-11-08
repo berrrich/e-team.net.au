@@ -14,7 +14,8 @@ const HeroArea = () => {
                 data-wow-delay=".3s"              >
 
                 <h1 className="mb-6 text-3xl font-bold leading-tight text-black dark:text-white sm:text-[40px] md:text-[50px] lg:text-[42px] xl:text-[50px]">
-                Cheap, emissions free local <span className="dark:text-green-400">lawn care</span>. What more do you need?
+                Cheap as Chips and Emissions Free. </h1>
+                <h1 className="mb-6 text-3xl font-bold leading-tight text-black dark:text-white sm:text-[40px] md:text-[50px] lg:text-[42px] xl:text-[50px]">What more do you need?
                 </h1>
                 <p className="mb-2 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
                 No need for petrol guzzling utes and noisy smelly mowers, the Scooter Squad uses cordless electric mowers, trimmers, and blowers. 
