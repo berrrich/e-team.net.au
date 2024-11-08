@@ -17,7 +17,7 @@ const config: Config = {
     extend: {
       height: ({
         "screen/2": "50vh",
-        "screen/90": "calc(100vh * .8)",
+        "screen/75": "calc(100vh * .75)",
         "screen/03": "calc(100vh * .03)",
         "screen/3": "calc(100vh / 3)",
         "screen/4": "calc(100vh / 4)",
@@ -36,7 +36,7 @@ const config: Config = {
         green: {
           200: '#5cf174',
           400: '#40d65b',
-          600: '#136c34',
+          600: '#00a859', //136c34
         },      
         red: {
           200: '#FFE2E5',
