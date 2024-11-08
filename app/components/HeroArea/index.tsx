@@ -17,7 +17,7 @@ const HeroArea = () => {
                 Cheap, emissions free local <span className="dark:text-green-400">lawn care</span>. What more do you need?
                 </h1>
                 <p className="mb-2 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
-                No need for petrol guzzling utes and noisy smelly mowers, trimmers and blowers, the Scooter Squad is clean, quiet and efficient. 
+                No need for petrol guzzling utes and noisy smelly mowers, the Scooter Squad uses cordless electric mowers, trimmers, and blowers. 
                 </p>                
                 <p className="mb-2 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
                 EScooters are more than toys or personal transports, with a trailer, they are money making machines. Contact us to find out more. 
