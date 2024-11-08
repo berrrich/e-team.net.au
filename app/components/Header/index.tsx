@@ -11,7 +11,7 @@ return (
         <div className="container relative max-w-[1330px]">
             <div className="flex justify-between">
             <div className="block pl-4 lg:py-0 w-3/8">
-              <Link href="/" className="block max-h-[90px] max-w-[229px] sm:max-w-[229px]">
+              <Link href="/" className="block ">
                 <Image
                   width={229}
                   height={90}
