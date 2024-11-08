@@ -8,9 +8,9 @@ const Header = () => {
 return (
 
       <header className="navbar left-0 top-0 z-50 pt-8 px-4 w-full border-stroke bg-white dark:border-stroke-dark">
-        <div className="container relative max-w-[1305px]">
+        <div className="container relative">
             <div className="flex items-center justify-between">
-            <div className="block pl-4 lg:py-0">
+            <div className="block pl-4 lg:py-0 w-1/8">
               <Link href="/" className="block max-h-[90px] max-w-[229px] sm:max-w-[229px]">
                 <Image
                   width={229}
@@ -23,7 +23,7 @@ return (
                 />
               </Link>               
             </div>
-            <div><h1 className="dark:text-green-200 sm:text-[40px] md:text-[50px] lg:text-[42px] xl:text-[50px] font-bold italic">ALL ELECTRIC LAWN SERVICE</h1></div></div></div>
+            <div className="container items-center w-7/8"><h1 className="dark:text-green-200 sm:text-[40px] md:text-[50px] lg:text-[42px] xl:text-[50px] font-bold italic text-center">ALL ELECTRIC LAWN SERVICE</h1></div></div></div>
             </header>
         );
 };
