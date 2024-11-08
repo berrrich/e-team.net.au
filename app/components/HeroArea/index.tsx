@@ -14,7 +14,7 @@ const HeroArea = () => {
                 data-wow-delay=".3s"              >
 
                 <h1 className="mb-6 text-3xl font-bold leading-tight text-black dark:text-white sm:text-[40px] md:text-[50px] lg:text-[42px] xl:text-[50px]">
-                Cheap as Chips and Emissions Free. </h1>
+                Cheap as Chips and Emissions Free? </h1>
                 <h1 className="mb-6 text-3xl font-bold leading-tight text-black dark:text-white sm:text-[40px] md:text-[50px] lg:text-[42px] xl:text-[50px]">What more do you need?
                 </h1>
                 <p className="mb-2 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
