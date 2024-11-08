@@ -23,7 +23,7 @@ const Contact: FC = () => {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>    
     <div className="flex-1 rounded-lg bg-gray-50 px-6 pb-4 pt-4">
-    <h1 className={`${rubik.className} mb-3 text-xl text-gray-700`}>    Contact us
+    <h1 className={`${rubik.className} mb-3 text-xl text-gray-700`}>Send us a note to get a quote or book in.
     </h1>
       <div className='mb-5'>
         <label
@@ -76,9 +76,6 @@ const Contact: FC = () => {
   </Link>
   <Button type="submit">Submit</Button>
 
-        {/* <button className='hover:shadow-form rounded-md bg-purple-500 py-3 px-8 text-base font-semibold text-white outline-none'>
-          Submit
-        </button> */}
       </div></div>
     </form>
   );
