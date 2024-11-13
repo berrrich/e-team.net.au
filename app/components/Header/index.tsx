@@ -7,7 +7,7 @@ import Image from "next/image";
 const Header = () => {
 return (
 
-      <header className="navbar left-0 top-0 z-50 pt-8 px-4 w-full border-stroke bg-white dark:border-stroke-dark h:screen/03">
+      <header className="left-0 top-0 z-50 pt-8 px-4 w-full border-stroke bg-white dark:border-stroke-dark h:screen/03">
         <div className="container relative max-w-[1330px]">
             <div className="flex flex-row justify-between items-center">
             <div className="lg:py-0 w-3/8">

@@ -17,7 +17,7 @@ const config: Config = {
     extend: {
       height: ({
         "screen/2": "50vh",
-        "screen/75": "calc(100vh * .75)",
+        "screen/75": "calc(100vh * .7)",
         "screen/03": "calc(100vh * .03)",
         "screen/3": "calc(100vh / 3)",
         "screen/4": "calc(100vh / 4)",
