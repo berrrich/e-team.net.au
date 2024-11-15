@@ -6,7 +6,7 @@ const faqData: FAQ[] = [
     id: 1,
     title: "About how much will it cost to have my lawn mowed?",
     details:
-      "If you have an average sized yard it usually costs $50",
+      "If you have an average sized yard it usually costs $50.",
   },
   {
     id: 2,
