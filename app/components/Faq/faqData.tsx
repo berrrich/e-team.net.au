@@ -32,7 +32,19 @@ const faqData: FAQ[] = [
     id: 5,
     title: "What do I need to provide Scooter Squad to get my lawn cut?",
     details:
-      "Besides an active account, that is a valid PayPal where you purchase the service, not much. However, we will need also to have access to your bins, preferably the green topped garden one, or the red topped if you want to have the clippings caught instead of mulched.",
+      "Besides an active account, that is a valid PayPal where you purchase the service, not much. However, we will need also to have access to your yard and bins unless you want the grass mulched (finely diced and put back as fertiliser). Also no dogs.",
+  },
+  {
+    id: 6,
+    title: "I will have a bunch of children toys in the yard. What happens?",
+    details:
+      "We will either move them out of the way or mow around them if they are too big. You might want to clean up the yard a bit prior to the service.",
+  },
+  {
+    id: 7,
+    title: "Our yard has a bunch of dog eggs in it. Can you help?",
+    details:
+      "Yes, definitely talk to us, we can help.",
   },
 ];
 
