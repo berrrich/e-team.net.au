@@ -64,7 +64,7 @@ const config: Config = {
         "linear-gradient(55.15deg, #8EA5FE -7.09%, #BEB3FD 51.72%, #90D1FF 101.48%)",
       "gradient-2": "linear-gradient(120.12deg, #FF8FE8 0%, #FFC960 100%)",
       "gradient-3":
-        "linear-gradient(55.15deg, #031d14 -7.09%, #182140 51.72%, #031d14 101.48%)",
+        "linear-gradient(90deg, #031d14 -7.09%, #182140 51.72%, #031d14 101.48%)",
         "gradient-4":
           "linear-gradient(180deg, #fff 5%, #136c34 100%)",
       texture: "url('/images/graphics/vecteezy_vector-grass-border-vector-illustration_27198095.svg')",

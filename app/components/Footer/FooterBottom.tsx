@@ -3,7 +3,7 @@ import React from "react";
 const FooterBottom = () => {
   return (
     <>
-      <div className="bg-primary dark:bg-black">
+      <div className="relative z-10 bg-[#F8FAFB] py-[110px] bg-gradient-3">
         <div className="container max-w-[1390px]">
           <div className="-mx-3 flex flex-wrap">
             <div className="order-last w-full px-3 lg:order-first">

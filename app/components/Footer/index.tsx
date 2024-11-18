@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="bg-[#F8FAFB] pt-[10px] dark:bg-black h-screen/03">
+        <div className="relative bg-[#F8FAFB] py-[110px] bg-gradient-3">
           <div className="container max-w-[1390px]">
             
           </div>

@@ -7,7 +7,7 @@ const HeroArea = () => {
 
   return (
     <>
-      <section id="home" className="pt-[70px] bg-gradient-3 h-screen/75">
+      <section id="home" className="relative z-10 bg-[#F8FAFB] py-[110px] bg-gradient-3">
         <div className="container lg:max-w-[1305px] lg:px-10">
           <div className="-mx-4 flex flex-wrap items-top">
             <div className="w-full px-4 lg:w-7/12">
@@ -26,7 +26,7 @@ const HeroArea = () => {
                 EScooters are more than toys or personal transports, with a trailer, they are <span className="dark:text-white">money making machines. Contact us to find out more</span>. 
                 </p>
                 <p className="mb-10 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
-                Send us a message to enquire about a <span className="dark:text-white">free verge cut</span> (conditions apply).
+                Send us a message to enquire about a <span className="dark:text-white">free verge cut</span> (conditions apply). Or, give me, Richa, a call on <span className="dark:text-white">04 78787 3239</span>.
                 </p>
 
 
