@@ -1,6 +1,8 @@
 "use client";
 import Contact from '@/components/contact';
 
+//import {ContactForm} from '@/components/form';
+
 const HeroArea = () => {
 
   return (

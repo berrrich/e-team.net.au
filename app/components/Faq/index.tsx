@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Graphics from "@/components/Faq/Graphics";
+import Graphics from "@/app/components/Faq/Graphics";
 import faqData from "./faqData";
 import FAQItem from "./FAQItem";
 

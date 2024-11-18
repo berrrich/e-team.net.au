@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/app/components/Header";
 import HeroArea from "@/app/components/HeroArea";
-import Faq from "@/components/Faq";
+import Faq from "@/app/components/Faq";
 import Footer from "@/app/components/Footer";
 //import Contact from '@/components/contact';
 export const metadata: Metadata = {
