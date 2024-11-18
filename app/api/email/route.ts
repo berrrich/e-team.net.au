@@ -1,16 +1,12 @@
 import { type NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
+import { sql } from '@vercel/postgres';
 
 export async function POST(request: NextRequest) {
   const { email, name, message } = await request.json();
-
-  var maillist = [
-    '****.sharma3@****.com',
-    '****.bussa@****.com',
-    '****.gawri@****.com',
-  ];
-
+  //const date = new Date().toISOString().split('T')[0];
+  const date = new Date().toISOString();
   const transport = nodemailer.createTransport({
     host: "mail.scootersquad.net",
     port: 465,
@@ -54,9 +50,16 @@ export async function POST(request: NextRequest) {
     });
 
   try {    
-    await sendMailPromise();
+    await sendMailPromise();      
+    await sql`
+    INSERT INTO contacts ( name, createdtime, email, message)
+    VALUES ( ${name}, ${date}, ${email}, ${message} )
+  `;
     return NextResponse.json({ message: 'Email sent' });
+
+    
   } catch (err) {
     return NextResponse.json({ error: err }, { status: 500 });
   }
+
 }
