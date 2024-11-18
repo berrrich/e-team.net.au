@@ -32,7 +32,7 @@ const faqData: FAQ[] = [
     id: 5,
     title: "What do I need to provide Scooter Squad to get my lawn cut?",
     details:
-      "Besides an active account, that is a valid PayPal where you purchase the service, not much. However, we will need also to have access to your bins if you want to have the clippings bagged instead of mulched.",
+      "Besides an active account, that is a valid PayPal where you purchase the service, not much. However, we will need also to have access to your bins, preferably the green topped garden one, or the red topped if you want to have the clippings caught instead of mulched.",
   },
 ];
 

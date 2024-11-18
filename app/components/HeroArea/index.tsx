@@ -20,10 +20,10 @@ const HeroArea = () => {
                 <h1 className="mb-6 text-3xl font-bold leading-tight text-black dark:text-white sm:text-[40px] md:text-[50px] lg:text-[42px] xl:text-[50px]">What more do you need?
                 </h1>
                 <p className="mb-2 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
-                No need for petrol guzzling utes and noisy smelly mowers, the Scooter Squad uses cordless electric lawn tools to keep the air clean, and the costs to a minimum. 
+                No need for petrol guzzling utes and noisy smelly mowers, the Scooter Squad uses cordless electric lawn tools to keep the air clean, and the <span className="dark:text-white">costs to a minimum</span>. 
                 </p>                
                 <p className="mb-2 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
-                EScooters are more than toys or personal transports, with a trailer, they are money making machines. Contact us to find out more. 
+                EScooters are more than toys or personal transports, with a trailer, they are <span className="dark:text-white">money making machines. Contact us to find out more</span>. 
                 </p>
                 <p className="mb-10 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
                 Send us a message to enquire about a <span className="dark:text-white">free verge cut</span> (conditions apply).
