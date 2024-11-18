@@ -18,7 +18,7 @@ const workProcessData: Feature[] = [
     src: "",
     title: "You Contact Us",
     description:
-      "Using the form or calling contact us with your.",
+      "Using the form or calling contact us with your. We are pretty flexible, but the following steps are optimal.",
   },
   {
     icon: <SiGooglemaps fontSize={44} />,
