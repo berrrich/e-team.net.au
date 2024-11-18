@@ -1,5 +1,4 @@
 import React from "react";
-import { Image } from "sanity";
 
 export type Feature = {
   icon: React.JSX.Element;
