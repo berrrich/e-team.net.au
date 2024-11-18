@@ -31,7 +31,7 @@ const workProcessData: Feature[] = [
     icon: <IoMdCheckmark fontSize={44} />,
     src: "",
     title: "Quote Accepted",
-    description: "Depending on what you need, we agree on a budget and approx timeline for the job. The payment for the work is taken as a Pre-Auth or advanced payment.",
+    description: "Depending on what you need, we agree on a budget and approx timeline for the job. The payment for the work is taken as a Pre-Auth or advanced payment through bank transfer or PayPal.",
   },
   {
     icon: <IoCheckmarkDoneSharp fontSize={44} />,
