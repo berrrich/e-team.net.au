@@ -31,7 +31,7 @@ const workProcessData: Feature[] = [
     icon: <IoMdCheckmark fontSize={44} />,
     src: "",
     title: "Quote Accepted",
-    description: "Depending on what you need, we agree on a budget and approx timeline for the job. The payment for the work is taken as a Pre-Auth on a credit card.",
+    description: "Depending on what you need, we agree on a budget and approx timeline for the job. The payment for the work is taken as a Pre-Auth or advanced payment.",
   },
   {
     icon: <IoCheckmarkDoneSharp fontSize={44} />,
@@ -50,7 +50,7 @@ const workProcessData: Feature[] = [
     src: "",
     title: "Job is Paid For",
     description:
-      "We will do a Pre-Auth complete to finalise the transaction.",
+      "We will do a Pre-Auth complete and/or send an updated receipt marked Finalised.",
   },
 ];
 
@@ -64,10 +64,10 @@ const WorkProcess = () => {
             data-wow-delay=".2s"
           >
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white sm:text-4xl md:text-[44px] md:leading-tight">
-              How does it work?
+              How it works?
             </h2>
             <p className="text-base text-body">
-              Scooter Squad is a network of independent scooter riding workers who can get your task done quickly and cheaply as they are local and don&apos;t use cars.
+              Scooter Squad is a network of independent mostly non car driving workers who can get your task done quickly and cheaply as they are local.
             </p>
           </div>
         </div>
