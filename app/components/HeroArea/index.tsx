@@ -25,7 +25,7 @@ const HeroArea = () => {
                 <ul className="list-disc pl-6"><li>Lawn mowing.</li><li>Yard and Verge clean up.</li><li>Pick up dog eggs.</li></ul>           
                 
                 <p className="mb-10 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
-                Send us a message to enquire about a <span className="dark:text-white">free verge cut</span> (conditions apply), or if you want to make some extra money and have a scooter and an odd job skill, give me, Richa, a call on <span className="dark:text-white">04 78787 3239</span> and I&apos;ll add your skill to the list.
+                Send us a message to enquire about a <span className="dark:text-white">free verge cut</span> (conditions apply), or if you want to make some extra money and have a scooter and an odd job skill, give me, Richie, a call on <span className="dark:text-white">04 78787 3239</span> and I&apos;ll add your skill to the list.
                 </p>
 
 
