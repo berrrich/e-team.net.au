@@ -23,7 +23,7 @@ return (
               </Link>               
             </div>
             <div className="w-5/8">
-            <h1 className="text-black sm:text-[30px] md:text-[40px] lg:text-[40px] xl:text-[50px] font-bold italic text-center">ALL ELECTRIC <span className="dark:text-green-200">LAWN</span> SERVICE</h1><p className="text-black sm:text-[10px] md:text-[40px] lg:text-[15px] xl:text-[20px] font-bold italic text-center dark:text-green-200">(and more coming soon)</p></div></div></div>
+            <h1 className="text-black sm:text-[30px] md:text-[40px] lg:text-[40px] xl:text-[50px] font-bold italic text-center">ALL ELECTRIC ODD JOB SQUAD</h1></div></div></div>
             </header>
         );
 };

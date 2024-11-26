@@ -20,13 +20,12 @@ const HeroArea = () => {
                 <h1 className="mb-6 text-3xl font-bold leading-tight text-black dark:text-white sm:text-[40px] md:text-[50px] lg:text-[42px] xl:text-[50px]">What more do you need?
                 </h1>
                 <p className="mb-2 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
-                No need for petrol guzzling utes and noisy smelly mowers, the Scooter Squad uses cordless electric lawn tools to keep the air clean, and the <span className="dark:text-white">costs to a minimum</span>. 
-                </p>                
-                <p className="mb-2 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
-                EScooters are more than toys or personal transports, with a trailer, they are <span className="dark:text-white">money making machines. Contact us to find out more</span>. 
-                </p>
+                The Scooter Squad can do lots of different odd jobs around your house. Currently, as we are just getting going we do:                
+                </p>     
+                <ul className="list-disc pl-6"><li>Lawn mowing.</li><li>Yard and Verge clean up.</li><li>Pick up dog eggs.</li></ul>           
+                
                 <p className="mb-10 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
-                Send us a message to enquire about a <span className="dark:text-white">free verge cut</span> (conditions apply). Or, give me, Richa, a call on <span className="dark:text-white">04 78787 3239</span>.
+                Send us a message to enquire about a <span className="dark:text-white">free verge cut</span> (conditions apply), or if you want to make some extra money and have a scooter and an odd job skill, give me, Richa, a call on <span className="dark:text-white">04 78787 3239</span> and I'll add your skill to the list.
                 </p>
 
 
