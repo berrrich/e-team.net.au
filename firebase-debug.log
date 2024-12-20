@@ -1,0 +1,95 @@
+[debug] [2024-12-20T06:29:23.484Z] ----------------------------------------------------------------------
+[debug] [2024-12-20T06:29:23.486Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\richa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apphosting:backends:create --project eteamwebsite --location asia-east1
+[debug] [2024-12-20T06:29:23.486Z] CLI Version:   13.29.1
+[debug] [2024-12-20T06:29:23.487Z] Platform:      win32
+[debug] [2024-12-20T06:29:23.487Z] Node Version:  v20.10.0
+[debug] [2024-12-20T06:29:23.487Z] Time:          Fri Dec 20 2024 14:29:23 GMT+0800 (Australian Western Standard Time)
+[debug] [2024-12-20T06:29:23.487Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-20T06:29:23.544Z] Object ".hosting" in "firebase.json" has unknown property: {"additionalProperty":"github"}
+[debug] [2024-12-20T06:29:23.544Z] Field ".hosting" in "firebase.json" is possibly invalid: should be array
+[debug] [2024-12-20T06:29:23.544Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-12-20T06:29:23.548Z] Checked if tokens are valid: false, expires at: 1734672793947
+[debug] [2024-12-20T06:29:23.548Z] Checked if tokens are valid: false, expires at: 1734672793947
+[debug] [2024-12-20T06:29:23.548Z] > refreshing access token with scopes: []
+[debug] [2024-12-20T06:29:23.549Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-20T06:29:23.550Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-20T06:29:24.049Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-12-20T06:29:24.050Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-20T06:29:24.059Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/firebaseapphosting.googleapis.com [none]
+[debug] [2024-12-20T06:29:24.059Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/firebaseapphosting.googleapis.com x-goog-quota-user=projects/eteamwebsite
+[debug] [2024-12-20T06:29:25.668Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/firebaseapphosting.googleapis.com 200
+[debug] [2024-12-20T06:29:25.668Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2024-12-20T06:29:25.669Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:25.669Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:25.669Z] >>> [apiv2][query] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus [none]
+[debug] [2024-12-20T06:29:26.396Z] <<< [apiv2][status] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus 200
+[debug] [2024-12-20T06:29:26.396Z] <<< [apiv2][body] GET https://mobilesdk-pa.googleapis.com/v1/accessmanagement/tos:getStatus {"overallStatus":"ACCEPTED","uTosStatus":{"tos":{"id":"firebase","tosId":"FIREBASE_UNIVERSAL"},"status":"ACCEPTED"},"childTosStatus":[{"tos":{"id":"cloud","tosId":"CLOUD_PLATFORM"},"status":"ACCEPTED"},{"tos":{"id":"firebase_b2b","tosId":"FIREBASE_B2B"},"status":"ACCEPTED"},{"tos":{"id":"universal","tosId":"GOOGLE_APIS"},"status":"ACCEPTED"}],"termsUrl":"https://firebase.google.com/terms","perServiceStatus":[{"tosId":"APP_CHECK","serviceStatus":{"tos":{"id":"app_check","tosId":"APP_CHECK"},"status":"ACCEPTED"}},{"tosId":"APP_HOSTING_TOS","serviceStatus":{"tos":{"id":"app_hosting","tosId":"APP_HOSTING_TOS"},"status":"ACCEPTED"}},{"tosId":"FIREBASE_DATA_CONNECT","serviceStatus":{"tos":{"id":"data_connect","tosId":"FIREBASE_DATA_CONNECT"},"status":"ACCEPTED"}},{"tosId":"CORE_APPS","serviceStatus":{"tos":{"id":"core_apps","tosId":"CORE_APPS"},"status":"ACCEPTED"}},{"tosId":"VERTEX_AI_IN_FIREBASE","serviceStatus":{"tos":{"id":"vertex_ai_in_firebase","tosId":"VERTEX_AI_IN_FIREBASE"},"status":"TERMS_UPDATED"}},{"tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION","serviceStatus":{"tos":{"id":"firebase_crashlytics_app_distribution","tosId":"FIREBASE_CRASHLYTICS_APP_DISTRIBUTION"},"status":"ACCEPTED"}},{"tosId":"GENERATIVE_LANGUAGE","serviceStatus":{"tos":{"id":"generative-language-api","tosId":"GENERATIVE_LANGUAGE"},"status":"ACCEPTED"}}]}
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:26.397Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/developerconnect.googleapis.com [none]
+[debug] [2024-12-20T06:29:26.397Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/developerconnect.googleapis.com x-goog-quota-user=projects/eteamwebsite
+[debug] [2024-12-20T06:29:26.398Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/cloudbuild.googleapis.com [none]
+[debug] [2024-12-20T06:29:26.398Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/cloudbuild.googleapis.com x-goog-quota-user=projects/eteamwebsite
+[debug] [2024-12-20T06:29:26.399Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/secretmanager.googleapis.com [none]
+[debug] [2024-12-20T06:29:26.400Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/secretmanager.googleapis.com x-goog-quota-user=projects/eteamwebsite
+[debug] [2024-12-20T06:29:26.401Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/run.googleapis.com [none]
+[debug] [2024-12-20T06:29:26.401Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/run.googleapis.com x-goog-quota-user=projects/eteamwebsite
+[debug] [2024-12-20T06:29:26.402Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/artifactregistry.googleapis.com [none]
+[debug] [2024-12-20T06:29:26.402Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/artifactregistry.googleapis.com x-goog-quota-user=projects/eteamwebsite
+[debug] [2024-12-20T06:29:26.403Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/iam.googleapis.com [none]
+[debug] [2024-12-20T06:29:26.403Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/iam.googleapis.com x-goog-quota-user=projects/eteamwebsite
+[debug] [2024-12-20T06:29:26.928Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/developerconnect.googleapis.com 200
+[debug] [2024-12-20T06:29:26.928Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/developerconnect.googleapis.com [omitted]
+[debug] [2024-12-20T06:29:27.834Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/secretmanager.googleapis.com 200
+[debug] [2024-12-20T06:29:27.834Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/secretmanager.googleapis.com [omitted]
+[debug] [2024-12-20T06:29:27.836Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/run.googleapis.com 200
+[debug] [2024-12-20T06:29:27.836Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/run.googleapis.com [omitted]
+[debug] [2024-12-20T06:29:27.838Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/cloudbuild.googleapis.com 200
+[debug] [2024-12-20T06:29:27.838Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/cloudbuild.googleapis.com [omitted]
+[debug] [2024-12-20T06:29:27.839Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/iam.googleapis.com 200
+[debug] [2024-12-20T06:29:27.839Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/iam.googleapis.com [omitted]
+[debug] [2024-12-20T06:29:27.844Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/artifactregistry.googleapis.com 200
+[debug] [2024-12-20T06:29:27.844Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/eteamwebsite/services/artifactregistry.googleapis.com [omitted]
+[debug] [2024-12-20T06:29:27.844Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:27.844Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:27.844Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/eteamwebsite/serviceAccounts/firebase-app-hosting-compute@eteamwebsite.iam.gserviceaccount.com:testIamPermissions [none]
+[debug] [2024-12-20T06:29:27.844Z] >>> [apiv2][(partial)header] POST https://iam.googleapis.com/v1/projects/eteamwebsite/serviceAccounts/firebase-app-hosting-compute@eteamwebsite.iam.gserviceaccount.com:testIamPermissions x-goog-quota-user=projects/eteamwebsite
+[debug] [2024-12-20T06:29:27.844Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/eteamwebsite/serviceAccounts/firebase-app-hosting-compute@eteamwebsite.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2024-12-20T06:29:29.310Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/eteamwebsite/serviceAccounts/firebase-app-hosting-compute@eteamwebsite.iam.gserviceaccount.com:testIamPermissions 200
+[debug] [2024-12-20T06:29:29.310Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/eteamwebsite/serviceAccounts/firebase-app-hosting-compute@eteamwebsite.iam.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2024-12-20T06:29:29.310Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:29.310Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:29.310Z] >>> [apiv2][query] GET https://firebaseapphosting.googleapis.com/v1beta/projects/eteamwebsite/locations 
+[debug] [2024-12-20T06:29:30.779Z] <<< [apiv2][status] GET https://firebaseapphosting.googleapis.com/v1beta/projects/eteamwebsite/locations 200
+[debug] [2024-12-20T06:29:30.779Z] <<< [apiv2][body] GET https://firebaseapphosting.googleapis.com/v1beta/projects/eteamwebsite/locations {"locations":[{"name":"projects/eteamwebsite/locations/asia-east1","locationId":"asia-east1","displayName":"Taiwan"},{"name":"projects/eteamwebsite/locations/europe-west4","locationId":"europe-west4","displayName":"Netherlands"},{"name":"projects/eteamwebsite/locations/us-central1","locationId":"us-central1","displayName":"Iowa"}]}
+[info] i  === Import a GitHub repository 
+[debug] [2024-12-20T06:29:30.780Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:30.780Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:30.780Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/eteamwebsite/locations/asia-east1/connections/firebase-app-hosting-github-oauth [none]
+[debug] [2024-12-20T06:29:31.895Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/eteamwebsite/locations/asia-east1/connections/firebase-app-hosting-github-oauth 200
+[debug] [2024-12-20T06:29:31.895Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/eteamwebsite/locations/asia-east1/connections/firebase-app-hosting-github-oauth {"name":"projects/eteamwebsite/locations/asia-east1/connections/firebase-app-hosting-github-oauth","createTime":"2024-12-20T06:20:41.622417813Z","updateTime":"2024-12-20T06:21:33.013387983Z","githubConfig":{"githubApp":"FIREBASE","authorizerCredential":{"oauthTokenSecretVersion":"projects/eteamwebsite/secrets/firebase-app-hosting-github-oauth-github-oauthtoken-0f6c6c/versions/latest","username":"berrrich"},"appInstallationId":"58243926","installationUri":"https://github.com/settings/installations/58243926"},"installationState":{"stage":"COMPLETE"}}
+[info] +  Connected with GitHub successfully
+ 
+[debug] [2024-12-20T06:29:31.896Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:31.896Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T06:29:31.896Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/eteamwebsite/locations/asia-east1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations [none]
+[debug] [2024-12-20T06:29:32.838Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/eteamwebsite/locations/asia-east1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations 200
+[debug] [2024-12-20T06:29:32.839Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/eteamwebsite/locations/asia-east1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations {"installations":[{"id":"58243926","name":"berrrich","type":"user"}]}
+[info] i  Install the Firebase App Hosting GitHub app on a new account to enable access to those repositories 
+[info] i  https://github.com/apps/firebase-app-hosting/installations/new 
+[debug] [2024-12-20T07:02:38.349Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T07:02:38.349Z] Checked if tokens are valid: true, expires at: 1734679763050
+[debug] [2024-12-20T07:02:38.349Z] >>> [apiv2][query] GET https://developerconnect.googleapis.com/v1/projects/eteamwebsite/locations/asia-east1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations [none]
+[debug] [2024-12-20T07:02:40.208Z] <<< [apiv2][status] GET https://developerconnect.googleapis.com/v1/projects/eteamwebsite/locations/asia-east1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations 200
+[debug] [2024-12-20T07:02:40.208Z] <<< [apiv2][body] GET https://developerconnect.googleapis.com/v1/projects/eteamwebsite/locations/asia-east1/connections/firebase-app-hosting-github-oauth:fetchGitHubInstallations {"installations":[{"id":"58243926","name":"berrrich","type":"user"}]}
