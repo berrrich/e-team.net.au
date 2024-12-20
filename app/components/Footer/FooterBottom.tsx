@@ -8,7 +8,7 @@ const FooterBottom = () => {
           <div className="-mx-3 flex flex-wrap">
             <div className="order-last w-full px-3 lg:order-first">
               <p className="text-center text-base text-white lg:mt-0 lg:text-center">
-                &copy; 2025 The Scooter Squad. All rights reserved
+                &copy; 2025 The E-Team. All rights reserved
               </p>
             </div>
 

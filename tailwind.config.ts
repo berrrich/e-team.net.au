@@ -34,8 +34,8 @@ const config: Config = {
           600: '#2F6FEB',
         },        
         green: {
-          200: '#1fef15', //5cf174
-          400: '#40d65b',
+          200: '#e0ffd9', //c8ffbc
+          400: '#1fef15',
           600: '#00a859', //136c34
         },      
         red: {
@@ -66,7 +66,7 @@ const config: Config = {
       "gradient-3":
         "linear-gradient(90deg, #031d14 -7.09%, #182140 51.72%, #031d14 101.48%)",
         "gradient-4":
-          "linear-gradient(180deg, #fff 5%, #136c34 100%)",
+          "linear-gradient(180deg, #fff 5%, #e0ffd9 100%)",
       texture: "url('/images/graphics/vecteezy_vector-grass-border-vector-illustration_27198095.svg')",
     },
     keyframes: {

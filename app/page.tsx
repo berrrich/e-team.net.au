@@ -6,17 +6,17 @@ import Footer from "@/app/components/Footer";
 import WorkProcess from "@/app/components/WorkProcess";
 //import Contact from '@/components/contact';
 export const metadata: Metadata = {
-  title: "The Scooter Squad",
+  title: "e-team.net.au",
   description:
-    "The signup website for retailers to access their dashboards and drop specials interface.",
+    "Get your tasks completed today without all the hoopla.",
 };
 export default function Home() {
   return (
     <>
     <Header />   
     <HeroArea />
-    <WorkProcess />
-    <Faq />
+    {/* <WorkProcess />
+    <Faq /> */}
     <Footer />
     </>
   );
