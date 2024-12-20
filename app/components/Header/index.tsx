@@ -12,14 +12,21 @@ return (
             <div className="flex flex-row justify-between items-center">
             <div className="lg:py-2 w-3/8">
               <Link href="/" className="block">
-                <Image
+              <Image
+                                width={210}
+                                height={40}
+                                src={"/images/logo/e-team_logo.png"}
+                                alt="hero image"
+                                className="mx-auto max-w-full"
+                              />
+                {/* <Image
                   width={210}
                   height={40}
                   src={"/images/logo/e-team_Logo.png"}
                   alt="Logo"
                   priority
                   className="hidden dark:block"
-                />
+                /> */}
               </Link>               
             </div>
             <div className="w-4/8">
