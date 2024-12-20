@@ -1,5 +1,6 @@
 "use client";
 import Contact from '@/components/contact';
+import Image from "next/image";
 
 //import {ContactForm} from '@/components/form';
 
@@ -32,6 +33,14 @@ const HeroArea = () => {
                 <ul className="list-disc pl-6"><li>Lawn cutting.</li><li>Yard and verge clean up.</li><li>House checking/plant watering.</li><li>Pick up dog eggs.</li></ul>  
                 <p className="mb-10 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
                 Send us a message to enquire about a <span className="dark:text-white">free verge cut</span> (conditions apply), or perhaps you have another task not on the list, or, give us a call on <span className="dark:text-white">04 78787 3239</span>.
+                
+                <Image
+                  width={300}
+                  height={638}
+                  src={"/images/logo/e-team_logo.png"}
+                  alt="hero image"
+                  className="mx-auto max-w-full"
+                />
                 </p>
 
 
