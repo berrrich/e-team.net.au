@@ -8,7 +8,7 @@ const HeroArea = () => {
 
   return (
     <>
-      <section id="home" className="relative z-10 bg-[#F8FAFB] py-[55px] bg-gradient-3">
+      <section id="home" className="relative z-10 bg-[#F8FAFB] pt-[55px] bg-gradient-3">
         <div className="container lg:max-w-[1305px] lg:px-10">
           <div className="-mx-4 flex flex-wrap items-top">
             <div className="w-full px-4 lg:w-6/12">

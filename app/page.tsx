@@ -15,8 +15,8 @@ export default function Home() {
     <>
     <Header />   
     <HeroArea />
-    {/* <WorkProcess />
-    <Faq /> */}
+    <WorkProcess />
+    <Faq />
     <Footer />
     </>
   );

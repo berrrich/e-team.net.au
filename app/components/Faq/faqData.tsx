@@ -30,7 +30,7 @@ const faqData: FAQ[] = [
   },
   {
     id: 5,
-    title: "What do I need to provide Scooter Squad to get my lawn cut?",
+    title: "What do I need to provide the e-team to get my lawn cut?",
     details:
       "Besides an active account, that is a valid PayPal where you purchase the service, not much. However, we will need also to have access to your yard and bins unless you want the grass mulched (finely diced and put back as fertiliser). Also no dogs.",
   },

@@ -67,7 +67,7 @@ const WorkProcess = () => {
               How it works?
             </h2>
             <p className="text-base text-body">
-              Scooter Squad is a network of independent mostly non car driving workers who can get your task done quickly and cheaply as they are local.
+              The e-team is a network of independent mostly non car driving workers who can get your task done quickly and cheaply as they are local.
             </p>
           </div>
         </div>

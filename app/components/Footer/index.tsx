@@ -1,17 +1,29 @@
 import React from "react";
-import FooterBottom from "@/app/components/Footer/FooterBottom";
+//import FooterBottom from "@/app/components/Footer/FooterBottom";
 
 const Footer = () => {
   return (
     <>
       <footer>
-        <div className="relative bg-[#F8FAFB] py-[110px] bg-gradient-3">
+        <div className="relative bg-[#F8FAFB] py-[0px] bg-gradient-3">
           <div className="container max-w-[1390px]">
             
           </div>
         </div>
+        <div className="relative z-10 bg-[#F8FAFB] py-[60px] bg-gradient-3">
+        <div className="container max-w-[1390px]">
+          <div className="-mx-3 flex flex-wrap">
+            <div className="order-last w-full px-3 lg:order-first">
+              <p className="text-center text-base text-white lg:mt-0 lg:text-center">
+                &copy; 2025 The E-Team. All rights reserved
+              </p>
+            </div>
 
-        <FooterBottom />
+
+          </div>
+        </div>
+      </div>
+        {/* <FooterBottom /> */}
       </footer>
     </>
   );

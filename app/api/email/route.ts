@@ -8,7 +8,7 @@ export async function POST(request: NextRequest) {
   //const date = new Date().toISOString().split('T')[0];
   const date = new Date().toISOString();
   const transport = nodemailer.createTransport({
-    host: "mail.scootersquad.net",
+    host: "smtp.gmail.com",
     port: 465,
     secure: true,
     /* 
