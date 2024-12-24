@@ -16,7 +16,7 @@ const Faq = () => {
     <>
       <section
         id="faq"
-        className="relative z-10 bg-[#F8FAFB] py-[110px] bg-gradient-3"
+        className="relative z-10 bg-[#F8FAFB] py-[75px] bg-gradient-3"
       >
         <div className="container">
           <div

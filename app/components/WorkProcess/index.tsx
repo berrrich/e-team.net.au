@@ -43,7 +43,7 @@ const workProcessData: Feature[] = [
     icon: <MdOutlineAddAPhoto fontSize={44} />,
     src: "",
     title: "Tech Completes Job",
-    description: "Out Scooter Squaddie will update us with before and after photos to signify the job is complete."
+    description: "Our e-teamer will update us with before and after photos to signify the job is complete."
   },
   {
     icon: <MdOutlinePriceCheck fontSize={44} />,
@@ -57,7 +57,7 @@ const workProcessData: Feature[] = [
 const WorkProcess = () => {
   return (
     <>
-      <section id="work-process" className="relative z-10 bg-[#F8FAFB] py-[110px] bg-gradient-3">
+      <section id="work-process" className="relative z-10 bg-[#F8FAFB] py-[75px] bg-gradient-3">
         <div className="container">
           <div
             className="wow fadeInUp mx-auto mb-14 max-w-[690px] text-center lg:mb-[70px]"

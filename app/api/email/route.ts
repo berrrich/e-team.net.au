@@ -8,24 +8,24 @@ export async function POST(request: NextRequest) {
   //const date = new Date().toISOString().split('T')[0];
   const date = new Date().toISOString();
   const transport = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    port: 465,
-    secure: true,
-    /* 
+    // host: "mail.gmail.com",
+    // port: 465,
+    // secure: true,
+     
+    //service: 'gmail',
+    //host: "mail.scootersquad.net",
     service: 'gmail',
-    host: "mail.scootersquad.net",
-    service: 'gmail',
-      setting service as 'gmail' is same as providing these setings:
-      host: "smtp.gmail.com",
-      port: 465,
-      secure: true
-      If you want to use a different email provider other than gmail, you need to provide these manually.
-      Or you can go use these well known services and their settings at
-      https://github.com/nodemailer/nodemailer/blob/master/lib/well-known/services.json
-  */
+      //setting service as 'gmail' is same as providing these setings:
+      //host: "smtp.gmail.com",
+      //port: 465,
+      //secure: true
+      //If you want to use a different email provider other than gmail, you need to provide these manually.
+      //Or you can go use these well known services and their settings at
+      //https://github.com/nodemailer/nodemailer/blob/master/lib/well-known/services.json
+  
     auth: {
-      user: process.env.MY_SS_EMAIL,
-      pass: process.env.MY_SS_PASSWORD,
+      user: process.env.MY_EMAIL,
+      pass: process.env.MY_PASSWORD,
     },
     
   });

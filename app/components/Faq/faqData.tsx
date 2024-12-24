@@ -26,7 +26,7 @@ const faqData: FAQ[] = [
     id: 4,
     title: "How do I get my verge cleaned and cut for free?",
     details:
-      "Contact us and we can arrange to get the verge cut in exchange for you letting us put a sign on it. We will maintain it so long as the sign is there for upto 1 year.",
+      "Contact us and we can arrange to get the verge cut in exchange for you letting us put a non-obstructing sign on it. We will maintain it so long as the sign is there for upto 1 year.",
   },
   {
     id: 5,

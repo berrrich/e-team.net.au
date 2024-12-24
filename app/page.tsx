@@ -3,7 +3,7 @@ import Header from "@/app/components/Header";
 import HeroArea from "@/app/components/HeroArea";
 import Faq from "@/app/components/Faq";
 import Footer from "@/app/components/Footer";
-import WorkProcess from "@/app/components/WorkProcess";
+//import WorkProcess from "@/app/components/WorkProcess";
 //import Contact from '@/components/contact';
 export const metadata: Metadata = {
   title: "e-team.net.au",
@@ -15,7 +15,7 @@ export default function Home() {
     <>
     <Header />   
     <HeroArea />
-    <WorkProcess />
+    {/* <WorkProcess /> */}
     <Faq />
     <Footer />
     </>

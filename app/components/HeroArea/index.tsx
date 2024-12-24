@@ -8,7 +8,7 @@ const HeroArea = () => {
 
   return (
     <>
-      <section id="home" className="relative z-10 bg-[#F8FAFB] pt-[55px] bg-gradient-3">
+      <section id="home" className="relative z-10 bg-[#F8FAFB] pt-[75px] bg-gradient-3">
         <div className="container lg:max-w-[1305px] lg:px-10">
           <div className="-mx-4 flex flex-wrap items-top">
             <div className="w-full px-4 lg:w-6/12">
@@ -21,7 +21,7 @@ const HeroArea = () => {
                 <h2 className="mb-6 text-3xl font-bold leading-tight text-black dark:text-white sm:text-[20px] md:text-[30px] lg:text-[22px] xl:text-[40px]">Call 04 7878 3239 to book in now.
                 </h2>
                 <p className="mb-2 max-w-[475px] text-base leading-relaxed text-body dark:text-green-400">
-                The e-team is an agile here, professional, and an inexpensive option for household tasks because the e-team is:                
+                The e-team is an agile here2, professional, and an inexpensive option for household tasks because the e-team is:                
                 </p>     
                 <ul className="list-disc pl-6">
                   <li>Inexpensive because it doesn&apos;t use utes or petrol equipment.</li>
